@@ -1,0 +1,137 @@
+<html>
+    <body>
+        <form name="registration form" id="registration form" >
+
+           <table border="1" height="700" width="700">
+               <tr>
+                  <td> First Name</td>
+                  <td> <input type="text" name="fname" id="fname" /> </td>  <!-- action="store_form.html" -->
+
+                </tr>
+
+                <tr>
+                    <td> Middle Name</td>
+                    <td> <input type="text" name="mname" id="mname"  /> </td>
+                  
+                  </tr>
+
+                <tr>
+                  <td> Last Name</td>
+                  <td> <input  type="text"  name="lname" id="lname"/> </td>
+                
+                </tr>
+
+                <tr>
+                  <td> Date of Joining</td>
+                  <td> <input  type="date"  name="doj" id="doj"/> </td>
+                
+                </tr>
+
+                <tr>
+                  <td> Password</td>
+                  <td> <inputtype="password" name="pass" id="pass"  /> </td>
+                
+                </tr>
+
+                <tr>
+                  <td> Confirm Password</td>
+                  <td> <input name="C-pass" id="C-pass" type="password" /> </td>
+                
+                </tr>
+
+                <tr>
+                  <td> Gender</td>
+
+                  <td> <input type="radio" name="gender" id="gender"  value="male" /> Male
+                  <br/>
+                  <input  type="radio" name="gender" id="gender" value="female"/> Female </td>
+                
+                </tr>
+                
+                <tr>
+
+                   <td> Are You Joining Next Batch ? </td>
+
+                   <td> <input type="radio"name="join" id="join" value="yes"/> Yes
+                   <br/>
+                   <input type="radio" name="join" id="join" value="no"/> No </td>
+                
+                </tr>
+
+                <tr>
+                  <td>  Mention Skill Set You have </td>
+
+                  <td> <input type="checkbox" name="course1" id="course1"  value="Java"/> Java
+                   <br/>
+                  <input  type="checkbox" name="course2" id="course2" value="Python"/> Python
+                   <br/>
+                  <input  type="checkbox" name="course3" id="course3" value="C"/> C
+                   <br/>
+                  <input  type="checkbox" name="course4" id="course4" value="Data Science"/> Data Science
+                   <br/>
+                  <input  type="checkbox" name="course5" id="course5" value="CSS"/> CSS </td
+
+                </tr>
+
+                <tr>
+                  <td> Select Time Slot </td>
+                  <td>
+                    <select name="Time slot" id="Time slot"  >  <!-- multiple = this attribute will use for multiple slection -->
+                      <option value="morn" selected> Morning(10-12) </option>  
+                      <option value="noon"> Afternoon(3-5) </option>
+                      <option value="even"> Evening(8-10) </option>
+                    </select>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td> City  </td>
+                  <td>
+                    <select name="City" id="City"  >  <!-- multiple = this attribute will use for multiple slection -->
+                      <option value="Aurangabd"> Aurangabad </option>
+                      <option value="Beed"> Beed </option>
+                      <option value="Pune"> Pune </option>
+                      <option value="Ahemednagar"> Ahemednagar </option>
+                      <option value="Nashik">Nashik </option>
+                      <option value="Mumbai"> Mumbai </option>
+                      <option value="Nagpur"> Nagpur </option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td> Enter Your Feedback </td>
+                  <td>
+                    <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="please enter your feedback here "></textarea>
+                  </td>
+              
+                </tr> 
+
+
+
+                <tr>
+                  <td><input type="submit" value="Register & Submit" </td>
+                </tr>
+
+
+                <!-- Query String = After Execution of file this entered values sent to the server in form of String Values pair.
+
+                    this includes file path(name) + question mark(?) + All Attributes ( key value pair)
+
+                    
+                    file:///C:/Users/Dell/Desktop/HTML%20code/Form_registration_form.html------this is file path
+                    ?------Question mark
+
+                    
+                    fname=Shubham & -----------This All Are Attributes
+                    mname=Suryakant+
+                    &lname=Kamble
+                    &pass=Shubham%40%40%40123
+                    &C-pass=Shubham%40%40%40123
+                    &gender=male
+                    &join=yes    -->
+
+
+            </table>
+        </form>
+    </body>
+</html>

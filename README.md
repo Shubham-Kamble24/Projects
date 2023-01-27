@@ -1,1 +1,1 @@
-The maseter branch have Rigistration from created by using HTML and CSS concepts.
+The maseter branch have Rigistration form created by using HTML and CSS concepts.
